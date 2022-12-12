@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <main class="main">
+    <section class="balance">
+      <div class="balance__content">
+        <p class="balance__text">My balance</p>
+        <p class="balance__amount">$921.48</p>
+      </div>
+      <img src="./images/logo.svg" alt="logo" class="balance__logo">
+    </section>
+
+    <section class="spending">
+      <h3 class="spending__title">Spending - Last 7 Days</h3>
+      <div class="spending__diagram">
+        <div class="spending__day-box">
+          <div class="spending__bar"></div>
+          <div class="spending__amount" data-id="mon"></div>
+          <p class="spending__day"></p>
+        </div>
+        <div class="spending__day-box">
+          <div class="spending__bar"></div>
+          <div class="spending__amount" data-id="tue"></div>
+          <p class="spending__day"></p>
+        </div>
+        <div class="spending__day-box">
+          <div class="spending__bar"></div>
+          <div class="spending__amount" data-id="wed"></div>
+          <p class="spending__day"></p>
+        </div>
+        <div class="spending__day-box">
+          <div class="spending__bar"></div>
+          <div class="spending__amount" data-id="thu"></div>
+          <p class="spending__day"></p>
+        </div>
+        <div class="spending__day-box">
+          <div class="spending__bar"></div>
+          <div class="spending__amount" data-id="fri"></div>
+          <p class="spending__day"></p>
+        </div>
+        <div class="spending__day-box">
+          <div class="spending__bar"></div>
+          <div class="spending__amount" data-id="sat"></div>
+          <p class="spending__day"></p>
+        </div>
+        <div class="spending__day-box">
+          <div class="spending__bar"></div>
+          <div class="spending__amount" data-id="sun"></div>
+          <p class="spending__day"></p>
+        </div>
+      </div>
+      <div class="spending__line"></div>
+      <div class="total">
+        <div class="total__text">Total this month</div>
+        <div class="total__box">
+          <div class="total__amount">$478.33</div>
+          <div class="total__last-month">
+            <div class="total__percentage">+2.4%</div>
+            <div class="total__from-last">from last month</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/KatWita">KatWita</a>.
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
